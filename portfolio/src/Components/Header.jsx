@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
+    <header className="container mx-auto md:flex justify-between py-2 px-5 md:px-0 max-width">
       <div className=" flex justify-between items-center py-2">
         <NavLink to="/">
           <img className="w-20" src={logos.logo} alt="logo" />

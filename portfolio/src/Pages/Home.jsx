@@ -9,7 +9,7 @@ const Home = () => {
   },[]);
   return (
     <div className="container flex flex-wrap justify-between items-center px-5">
-      <div className="flex-1 ml-10">
+      <div className="flex-1 flex-wrap ml-10 text-center md:text-left">
         <h1 data-aos="fade-right" className="text-2xl md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Hi 👋 <br />
           I am
@@ -21,8 +21,8 @@ const Home = () => {
           {personalDetails.tagline}
         </h1>
       </div>
-      <div className="w-1/2 flex justify-end md:justify-center">
-        <img data-aos="fade-left" className="w-96 h-auto ml-10" src={logos.myimage} alt="" />
+      <div className="w-full mt-5 md:w-1/2 md:mt-0 items-center">
+        <img data-aos="fade-left" className="w-11/12 md:w-8/12 h-auto ml-10" src={logos.myimage} alt="" />
       </div>
     </div>
   );
